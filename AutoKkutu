@@ -23,7 +23,7 @@
     preferLong: true,   // 긴 단어 우선
     preferEnd: true,    // 한방 단어 우선
     maxSuggest: 10,     // 추천 단어 표시 수
-    wordListUrl: 'WORD_LIST_URL_PLACEHOLDER', // gist raw URL
+    wordListUrl: 'https://raw.githubusercontent.com/Shshshhkak/Kkuuuu/refs/heads/main/korean_words.txt', // gist raw URL
   };
 
   let cfg = Object.assign({}, DEFAULT_CFG, JSON.parse(localStorage.getItem('__AK_cfg__') || '{}'));
